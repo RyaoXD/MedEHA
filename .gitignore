@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+.ipynb_checkpoints/
+
+# Credentialed data, local weights, and run artifacts
+/data/
+/model_files/Bio_ClinicalBERT/
+/lightning_logs/
+/logs/
+/output/
+/outputs/
+/check/
+*.ckpt
+*.pth
+*.npy
+*.pickle
+*.pkl
+
+# Manuscript binaries and lab notes stay local
+/ERMA.pdf
+/MedEHA.pdf
+/MedEHA.docx
+/data_problems.md
+/ablation.md
+
+# Local helper and extra lab launcher
+/git_push.sh
+/run_abl_medeha1.sh
